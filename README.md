@@ -15,3 +15,4 @@ $ yarn install --frozen-lockfile
 # serve with hot reload at localhost:3000
 $ yarn dev
 ```
+#the app needs to run locally for the tests to work
