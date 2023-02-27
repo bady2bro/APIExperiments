@@ -3,12 +3,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+
+import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class Tests {
 
@@ -104,7 +108,7 @@ public class Tests {
 
     @Test
     public void editStorageSurcharge(){
-        System.out.println("\n###\nRemove price component: Storage surcharge\n\n###");
+        System.out.println("\n###\nEdit price component: Storage surcharge\n\n###");
         //Add all fields
         addAddAllFields();
         //Start test
